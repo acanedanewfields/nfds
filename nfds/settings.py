@@ -26,7 +26,7 @@ SECRET_KEY = '=73l!@1pb9&dxahhy4xzym!z!ibf&ocs-xcotsi94$x7m=9mg$'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+#ALLOWED_HOSTS = ['acaneda.pythonanywhere.com']
 
 # Application definition
 
@@ -118,4 +118,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT='ndfs/static/'
+STATIC_ROOT='nfds/static/'
+#STATIC_ROOT='/home/acaneda/nfds/static/'
